@@ -1,0 +1,13 @@
+write a java method that recieves an array and flips its elements in a similar way to the following example:
+original array: 1 2 3 4 5 6
+resulted array: 4 5 6 1 2 3
+
+the method returns the new array.
+you may assume that the size of the original array is always even
+you should solve this question twice:
+-once by defining a temporary array within the function to help you out
+-and once without defining any extra memory
+in both cases the complexity should not exceed O(n) 
+upload a java file that contains both versions of the method + a main method that tests both of them,
+or you can show me the answer tmrw in the lecture lol
+
