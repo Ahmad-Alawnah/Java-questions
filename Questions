@@ -1,0 +1,24 @@
+Day 1:
+write a java method that recieves an array and flips its elements in a similar way to the following example:
+original array: 1 2 3 4 5 6
+resulted array: 4 5 6 1 2 3
+
+the method returns the new array.
+you may assume that the size of the original array is always even
+you should solve this question twice:
+-once by defining a temporary array within the function to help you out
+-and once without defining any extra memory
+in both cases the complexity should not exceed O(n) 
+upload a java file that contains both versions of the method + a main method that tests both of them,
+or you can show me the answer tmrw in the lecture lol
+
+Day2:
+Q1) write a java method that receives a 2D array and 2 integers: 'oldVal' and 'newVal', replace every occurrence of oldVal with newVal.
+the method returns a reference to the array
+- CHALLENGE (u aint gon do it lol): write a variation of this method that traverses the array column by column (you may assume that each row
+has the same number of columns) (yes i know its retarded but we gotta practice man)
+
+Q2) write a java method that takes 2 strings: 'source' and 'target' and return true if 'target' exists within 'source' and false otherwise
+for example if source = "EEEEEEEAEEEELEEEEIEEE" and target is "ALI" the method returns True because "ALI" exists in the source
+another example if source = "door" and target was "dog" the method returns false because only "do" exists in "door"
+note that the letters dont have to be consecutive
