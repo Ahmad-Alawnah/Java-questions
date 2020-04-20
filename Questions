@@ -22,3 +22,20 @@ Q2) write a java method that takes 2 strings: 'source' and 'target' and return t
 for example if source = "EEEEEEEAEEEELEEEEIEEE" and target is "ALI" the method returns True because "ALI" exists in the source
 another example if source = "door" and target was "dog" the method returns false because only "do" exists in "door"
 note that the letters dont have to be consecutive
+
+
+Day idk i lost count:
+Q1) read two strings from the user, then determine whether you can form a palindrome string from these two strings (in any order)
+you dont need to print the result, just determine if it is possible or not (i.e. true/false)
+ex:
+input: s1 = "abcd" s2 = "acd"
+ouput: "true"
+why? because you can make this string: "dacbcad" out of those strings and it is palindrome.
+note that you dont have to print this result
+
+ex2:
+input: s1 = "aaab" s2 = "bb"
+output: "false"
+
+hint: no lol u aint getting nothing
+
