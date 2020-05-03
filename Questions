@@ -39,3 +39,53 @@ output: "false"
 
 hint: no lol u aint getting nothing
 
+
+Day 4:
+
+Q1) write a main method that asks the user to input thier name, and then reads an integer n, then reads n strings, these strings represent
+    the most favorite things for that person, output these values in file by writting the persons name in a line, then thier favorite things in a line
+     
+Q2) Write an abstract class shape, each shape has width and height as integers, provide a constructor to initialize these values + setters and getters
+    this class has two other methods: display, a void method that displays the shape, and area, which returns the area as double.
+    those two methods should be abstract in Shape class
+    create two implementation classes that extend shape class:
+    1- Square: override display() to print "square" and area to return width * height
+    1.5- Triangle: override display() to print "Triangle" and area to return width * height / 2
+    in both classes you would have to write a constructor that takes 2 parameters and calls Shape's constructor
+    create a factory method that returns shape object, the method should take a parameter to determine which shape to create,
+     also, it takes initial values for width and height for the shape, this method should, be declared static in a class called ShapeFactory
+    write a main method to create a square where width = 5 and height = 6 and a triangle with width = 6 and height = 9, display the triangle
+    and print the area of the square, your main method should not contain any "new" operators
+    
+Q3) create a class called RetardedCollection, this class represents a datastructure that works in the following way:
+    you have the following elements in the DS: X1 X2 X3 X4 X5 X6
+    when you return an element for the first time you get X1
+    second time you get X6
+    third time you get X2
+    forth time you get X5
+    fifth time you get X3
+    sixth time you get X4
+    
+    -the class must be generic
+    -the class should contain the following:
+    1- an array of type Object (because if you use an array of type T you will face problems when trying to initialize)
+    2- a constructer that takes initial size and initializes the array 
+    3- a method add which takes an element and adds it in order in the list (if its full dont do anything)
+    4- a class called RetardedIterator which implements iterator class and implements nessesary methods to iterate as explained above
+      note that RetardedCollection must implement Iterable interface.
+    5- in main, declare and object of RetardedCollection, fill it with 1, 2, 3, 4, 5, 6, then use an iterator to go over and print the values.
+    
+Q4) write a functional interface called Server, it has a method called service, that takes two Strings and returns a string
+       write a main function that reads two strings from the user and does the following:
+       1- creates a string that contains common characters between those two strings
+       2- creates a string that contains "Yes" if the second string is a substring of the first string and contains "No" otherwise
+       3- creates a string that contains "Yes" if the strings can form a palindrome similar to Q1 in the previous part and "No" otherwise
+       4- creates a string that contains a common sub sequence in both string (any sub sequence)
+       5- creates a string that merges the two strings in the following way:
+          "[character from the 1st string][character from the 2nd string][1st][2nd]..." if one string is larger than the other, append
+            what remains of it to the new string
+       6- print the resulted string after each operation.
+       all of these operations should be done using the functional interface, you should not define any classes, and you should not use
+        "new" operator in main at all.
+    
+   
